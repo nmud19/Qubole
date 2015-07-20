@@ -1,0 +1,37 @@
+body {
+	background-color: #DEDECA;
+}
+
+body, td, th {
+	color: #666633;
+}
+
+h1, h2 {
+	color: #663300;
+}
+
+h3, h4, h5, h6 {
+	color: #996633;
+}
+
+a {
+  color: #336600;
+}
+
+.square {
+	width: 10px;
+	height: 10px;
+	background: red;
+	padding: 10px;
+	float: left;
+	display: inline;
+	margin: 10px;
+}
+.square1 {
+	width: 10px;
+	height: 10px;
+	background: green;
+	padding: 10px;
+	float: none;
+	margin: 10px;
+}

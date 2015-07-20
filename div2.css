@@ -1,0 +1,23 @@
+.div2 {
+    width: 10px;
+    height: 10px;
+    position: relative;
+	padding: 10px;
+	float: left;
+	display: inline;
+	margin: 10px;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    25%   {background-color:white; }
+    50%  {background-color: #0033FF; }
+    75%  {background-color: #9966FF; }
+    100%  {background-color:white;}
+}
